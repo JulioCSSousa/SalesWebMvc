@@ -21,7 +21,8 @@ namespace SalesWebMvc.Data
         {
             if (_context.Department.Any() ||
                 _context.Seller.Any() ||
-                _context.SalesRecord.Any())
+                _context.SalesRecord.Any()) 
+
             {
                 return;
             }
